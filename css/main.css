@@ -662,6 +662,18 @@ a.shop_go {
 }
 
 @media (max-width: 1199px) and (min-width: 768px) {
+	.products_1 {
+		background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-tablet1.jpg);
+	}
+
+	.products_2 {
+		background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-tablet2.jpg);
+	}
+
+	.products_3 {
+		background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-tablet3.jpg);
+	}
+	
 	.list_menu {
 		display: none;
 	}
@@ -751,6 +763,18 @@ a.shop_go {
 
 
 @media (max-width: 767px) {
+	.products_1 {
+		background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-mobile1.jpg);
+	}
+
+	.products_2 {
+		background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-mobile2.jpg);
+	}
+
+	.products_3 {
+		background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-mobile3.jpg);
+	}
+	
 	.list_menu {
 		display: none;
 	}
@@ -863,7 +887,7 @@ a.shop_go {
 }
 
 .popup-wrapper {
-	display: none;
+
 	font-family: Regular;
 	font-size: 12px;
 	width: 100vw;
@@ -937,58 +961,66 @@ h2.title_after1::after {
   background-color: #f9f9f9;
   color: #333333;
   background-repeat: no-repeat;
-  background-image: url(https://netology-code.github.io/html-2-homeworks/form-elements/city-select/img/select-arrows.svg);
-  background-position-x: right, 5px;
+  background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/1ad0703d75efaafe9fb70e8a32f7ecf69bfb40f4/sources/svg/form-arrows.svg);
+  background-position-x: 295px;
   background-position-y: center;
+  background-size: 8px 15px;
 }
 
-.select, .checkbox {
+.select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  
-}
-
-label.label_r {
-    display: inline-block;
-    cursor: pointer;
-    position: relative;
-    padding-left: 25px;
-    margin-right: 15px;
-    font-size: 13px;
-}
-
-input[type=radio] {
-    display: none;
-}
-
-.label_r::before {
-    content: "";
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    margin-right: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 1px;
-    background-color: #aaa;
-    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
-}
-
-.radio label:before {
-    border-radius: 8px;
 }
 
 
-input[type=radio]:checked + label:before {
-    content: "";
-    color: #f3f3f3;
-    font-size: 30px;
-    text-align: center;
-    line-height: 18px;
+
+.radio-group-text::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/1ad0703d75efaafe9fb70e8a32f7ecf69bfb40f4/sources/svg/form-empty-circle.svg");
+	background-repeat: no-repeat;
+	background-size: 17px;
 }
 
-.radio {
+.radio-group-text::before {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.radio-group {
+	display: inline-block;
+	font-size: 15px;
+}
+
+.radio-group:nth-of-type(n+2) {
+	margin-left: 10px;
+}
+
+.radio:checked {
+	outline: 3px solid #000000;
+	outline-offset: 5px;
+}
+
+input.radio:checked ~ .radio-group-text::before {
+	background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/1ad0703d75efaafe9fb70e8a32f7ecf69bfb40f4/sources/svg/form-circle.svg");
+}
+
+.radio-padding {
+	padding-top: 5px;
+}
+
+input.radio {
+	position: absolute;
+	clip: rect(10px,10px,10px,10px);
+	height: 1px;
+	width: 1px;
+}
+
+.radio_sector {
 	padding-left: 34px;
 	padding-top: 34px;
 }
@@ -1005,6 +1037,8 @@ input[type=radio]:checked + label:before {
 .formText {
     width: 315px;
     height: 150px;
+	text-indent: 1.3em;
+	padding-bottom: 90px;
 }
 
 .email_submit_Form {
