@@ -887,7 +887,7 @@ a.shop_go {
 }
 
 .popup-wrapper {
-
+	display: none;
 	font-family: Regular;
 	font-size: 12px;
 	width: 100vw;
