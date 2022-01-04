@@ -887,7 +887,7 @@ a.shop_go {
 
 @media (max-width: 767px) and (orientation: landscape) {
 	.box_content{
-		flex-direction: column;
+		flex-direction: row;
 	}
 	
 	.now_1 {
@@ -903,17 +903,6 @@ a.shop_go {
 		margin-left: 1px;
 	}
 	
-	.products_1 {
-		background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-mobile1.jpg);
-	}
-
-	.products_2 {
-		background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-mobile2.jpg);
-	}
-
-	.products_3 {
-		background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-mobile3.jpg);
-	}
 	
 	.list_menu {
 		display: none;
