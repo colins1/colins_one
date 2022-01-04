@@ -891,7 +891,20 @@ a.shop_go {
 	}
 	
 	.content_image_now {
-		width: 48.72%;
+		width: 45.72%;
+	}
+	
+	.now_1 {
+		margin-bottom: 1px;
+		margin-right: 1px;
+	}
+	
+	.now_2 {
+		margin-bottom: 1px;
+	}
+	
+	.now_4 {
+		margin-left: 1px;
 	}
 }
 
