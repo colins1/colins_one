@@ -887,24 +887,11 @@ a.shop_go {
 
 @media (max-width: 767px) and (orientation: landscape) {
 	.box_content{
-		flex-direction: row;
+		flex-direction: column;
 	}
 	
 	.content_image_now {
 		width: 49.72%;
-	}
-	
-	.now_1 {
-		margin-bottom: 4px;
-		margin-right: 4px;
-	}
-	
-	.now_2 {
-		margin-bottom: 4px;
-	}
-	
-	.now_4 {
-		margin-left: 4px;
 	}
 }
 
