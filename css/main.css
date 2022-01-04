@@ -907,64 +907,15 @@ a.shop_go {
 		margin-left: 1px;
 	}
 	
-		.menu_logo {
-		max-width: 768px;
-		padding-top: 40px;
-		padding-left: 40px;
-	}
-	
-	.page {
-		max-width: 768px;
-		margin: auto;
-		justify-content: space-around;
-		
-	}
-	
-	.main {
-		width: 60%;
-		flex-basis:250px;
-		font-size: 14px;
-	}
-	
-	img.pre_images {
-		width: 381px;
-	}
-	
-	.aside {
-		width: 30%;
-		flex-basis:250px;
-		padding-left: 0px;
-	}	
-	
-	.box_content{
-		flex-direction: column;
-	}
-	
-	.content_image_now {
-		width: 49.72%;
-	}
-	
-	.now_1 {
-		margin-bottom: 4px;
-		margin-right: 4px;
-	}
-	
-	.now_2 {
-		margin-bottom: 4px;
-	}
-	
-	.now_4 {
-		margin-left: 4px;
-	}
 	
 	.products {
-		max-width: 730px;
+		max-width: 360px;
 		flex-wrap: wrap;
 		justify-content: space-around;
 	}
 	
 	.products_sections {
-		width: 40%;
+		width: 100%;
 	}
 
 	.content_products {
@@ -972,15 +923,21 @@ a.shop_go {
 	}
 	
 	.address {
-		max-width: 700px;
+		max-width: 360px;
 	}
 	
 	.last_text {
-		max-width: 700px;
+		max-width: 360px;
 	}
 	
 	.content {
 		padding: 20px 0px;
+	}
+	
+	.content_image_products {
+		padding: 122px;
+		background-repeat: no-repeat;
+		background-size: contain;
 	}
 }
 
