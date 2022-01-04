@@ -890,10 +890,6 @@ a.shop_go {
 		flex-direction: column;
 	}
 	
-	.content_image_now {
-		width: 45.72%;
-	}
-	
 	.now_1 {
 		margin-bottom: 1px;
 		margin-right: 1px;
@@ -929,8 +925,7 @@ a.shop_go {
 	}
 	
 	.content_image_now {
-		width: 100%;
-		margin-bottom: 4px;
+		width: 45.72%;
 	}
 	
 	.opacity{
