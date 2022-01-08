@@ -229,6 +229,10 @@ ul.list_now {
 	background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/trend4.jpg);
 }
 
+.menu_img {
+	display: none;
+}
+
 .box_content{
   display: flex;
   margin-top: 65px;
@@ -661,6 +665,12 @@ a.shop_go {
 }
 
 @media (max-width: 1199px) and (min-width: 768px) {
+	.menu_img {
+		display: flex;
+		width: 30px;
+		padding-bottom: 240px; 
+	}
+	
 	.products_1 {
 		background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-tablet1.jpg);
 	}
@@ -763,6 +773,12 @@ a.shop_go {
 
 
 @media (max-width: 767px) {
+	.menu_img {
+		display: flex;
+		width: 30px;
+		padding-bottom: 240px; 
+	}
+	
 	.products_1 {
 		background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-mobile1.jpg);
 	}
