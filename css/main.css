@@ -886,23 +886,17 @@ a.shop_go {
 }
 
 @media (max-width: 767px) and (orientation: landscape) {
-	.box_content{
-		flex-direction: row;
+	.products_1 {
+		background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-mobile1.jpg);
 	}
-	
-	.now_1 {
-		margin-bottom: 1px;
-		margin-right: 1px;
+
+	.products_2 {
+		background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-mobile2.jpg);
 	}
-	
-	.now_2 {
-		margin-bottom: 1px;
+
+	.products_3 {
+		background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-mobile3.jpg);
 	}
-	
-	.now_4 {
-		margin-left: 1px;
-	}
-	
 	
 	.list_menu {
 		display: none;
@@ -914,7 +908,8 @@ a.shop_go {
 	}
 	
 	.content_image_now {
-		width: 45.72%;
+		width: 45%;
+		margin-bottom: 4px;
 	}
 	
 	.opacity{
@@ -963,6 +958,23 @@ a.shop_go {
 		flex-basis:250px;
 		padding-left: 0px;
 	}	
+	
+	.box_content{
+		flex-direction: column;
+	}
+	
+	.now_1 {
+		margin-bottom: 4px;
+		margin-right: 4px;
+	}
+	
+	.now_2 {
+		margin-bottom: 4px;
+	}
+	
+	.now_4 {
+		margin-left: 4px;
+	}
 	
 	.products {
 		max-width: 360px;
