@@ -32,10 +32,14 @@
 						<span class="radio-group-text">Нет</span>
 					</label>
 					<p class="radio_text2">Расскажите, какой контент вы хотели бы видеть на нанашем сайте?</p>
-					<input class="formText" type="text" value="может, больше рецептов?">
-					
-					<input class="email_submit_Form" type="submit" aria-label="Отправить" value="Отправить">
-					<span  class="hidden" hidden>Подписаны ли вы на рассылку да или нет</span>
+					<label>
+						<input class="formText" type="text" value="может, больше рецептов?">
+						<span  class="visually-hidden">Напишите какие рецепты вы хотели бы видеть</span>
+					</label>
+					<label>
+						<input class="email_submit_Form" type="submit" aria-label="Отправить" value="Отправить">
+						<span  class="visually-hidden">Подписаны ли вы на рассылку да или нет</span>
+					</label>
 					</div>
 					</div>
 				</form>
@@ -46,7 +50,6 @@
 		  <div class="menu_logo">
 		  <a href="#0"><img class="logo" src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" alt="Логотип"></a>
 		  <nav class="menu">
-		  <img class="menu_img" src="https://raw.githubusercontent.com/netology-code/mq-diploma/1ad0703d75efaafe9fb70e8a32f7ecf69bfb40f4/sources/svg/form-x.svg" alt="Пляж и человек">
 			<ul class="list_menu">
 				<li><a class="menu_url" href="#0"><p>Главная</p></a></li>
 				<li><a class="menu_url" href="#0"><p>посты</p></a></li>
@@ -249,18 +252,26 @@
 				</div>
 		   </section>
 		   <section class="section_aside">
+		   	<label>
 				<form class="search_aside" action="#">
-					<input type="text" style="width: 230px; height: 50px; border: 0px solid #f5f4f4; background-color: #f5f4f4;"  placeholder="    Найти..." aria-label="Найти" name="search" required>
+					<input type="text" style="width: 100%; height: 50px; border: 0px solid #f5f4f4; background-color: #f5f4f4;"  placeholder="    Найти..." aria-label="Найти" name="search" required>
+					<span class="visually-hidden">Введите то что хотите найти!</span>
 					<input class="search_submit" name="Поиск" aria-label="Поиск" type="submit" value="">
-					<span class="hidden" hidden>Форма поиска</span>
+					<span class="visually-hidden">Кнопка для отправки вашего запроса</span>
 				</form>
+			</label>
 		   </section>
 		   <section class="section_aside">
 				<h3 class="title_after">Рассылка</h3>
 			 <form class="search_email_aside" action="#">
+			 <label>
 			   <input class="search_email_aside_form" type="email" aria-label="Ваш Email" placeholder="    Ваш email-адрес" name="email" required>
+			   <span class="visually-hidden">Введите тут ваш Email</span>
+			 </label>
+			 <label>
 			   <input class="email_submit" type="submit" aria-label="Подписаться" value="Подписаться">
-			   <span class="hidden" hidden>Подписаться</span>
+			   <span class="visually-hidden">Кнопка чтоб подписаться</span>
+			 </label>
 			 </form>
 		   </section>
 		   <section class="section_aside">
@@ -271,12 +282,12 @@
 				<h3 class="title_after">Темы</h3>
 			 <div class="themes_aside">
 				<ul class="theme_ul_aside">
-				   <li><a class="line_teg" href="#0">Красота</a><span class="theme_aside_numb">12</span></li>
-				   <li><a class="line_teg" href="#0">Здоровье</a><span class="theme_aside_numb">4</span></li>
-				   <li><a class="line_teg" href="#0">Образ жизни</a><span class="theme_aside_numb">145</span></li>
-				   <li><a class="line_teg" href="#0">Музыка</a><span class="theme_aside_numb">28</span></li>
-				   <li><a class="line_teg" href="#0">Спорт</a><span class="theme_aside_numb">62</span></li>
-				   <li><a class="line_teg" href="#0">Йога</a><span class="theme_aside_numb">8</span></li>
+				   <li><a class="line_teg" href="#0">Красота</a><a class="theme_aside_numb">12</a></li>
+				   <li><a class="line_teg" href="#0">Здоровье</a><a class="theme_aside_numb">4</a></li>
+				   <li><a class="line_teg" href="#0">Образ жизни</a><a class="theme_aside_numb">145</a></li>
+				   <li><a class="line_teg" href="#0">Музыка</a><a class="theme_aside_numb">28</a></li>
+				   <li><a class="line_teg" href="#0">Спорт</a><a class="theme_aside_numb">62</a></li>
+				   <li><a class="line_teg" href="#0">Йога</a><a class="theme_aside_numb">8</a></li>
 				</ul>
 			 </div>
 		   </section>
@@ -333,11 +344,26 @@
 		  <address class="address">
 			<div class="address_social_network">
 			<ul class="list_address_images">
-			  <li><a href="#0" class="address_images twitter"></a></li>
-			  <li><a href="#0" class="address_images pinterest"></a></li>
-			  <li><a href="#0" class="address_images facebook"></a></li>
-			  <li><a href="#0" class="address_images instagram"></a></li>
-			  <li><a href="#0" class="address_images last tumblr"></a></li>
+				<label>
+				  <li><a href="#0" class="address_images twitter"></a></li>
+				  <span class="visually-hidden">Twitter</span>
+				</label>
+				<label>
+				  <li><a href="#0" class="address_images pinterest"></a></li>
+				  <span class="visually-hidden">Pinterest</span>
+				</label>
+				<label>
+				  <li><a href="#0" class="address_images facebook"></a></li>
+				  <span class="visually-hidden">Facebook</span>
+				</label>
+				<label>
+				  <li><a href="#0" class="address_images instagram"></a></li>
+				  <span class="visually-hidden">Instagram</span>
+				</label>
+				<label>
+				  <li><a href="#0" class="address_images last tumblr"></a></li>
+				  <span class="visually-hidden">Tumblr</span>
+				</label>
 			</ul>
 			</div>
 		  </address>
