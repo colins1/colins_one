@@ -440,26 +440,24 @@ p.text {
 
 ul.theme_ul_aside li {
 	border-bottom: 2px solid #ebebeb;
-	height: 50px;
+	height: 40px;
 	list-style-type: none;
     width: 275%;
+	margin-bottom: 20px;
 }
-
-.theme_ul_aside li a.line_teg {
+a.line_teg {
 	text-decoration: none;
 	color: #000000;
-	line-height: 50px;
+	line-height: 10px;
 }
 
-.theme_aside_numb_div {
-	display: flex;
-	flex-direction: column;
-}
 
-.theme_aside_numb {
-  color: #b59f5b;
-  padding-left: 5px;
-  position: absolute
+span.theme_aside_numb {
+	padding: 0px;
+	color: #b59f5b;
+	padding-left: 5px;
+	margin: 0px 0px 0px 0px;
+	position: absolute
 }
 
 .address {
