@@ -671,6 +671,10 @@ a.shop_go {
 }
 
 @media (max-width: 1200px) and (min-width: 641px) {
+	p.text {
+		font-size: 1rem;
+	}
+	
 	.products_1 {
 		background-image: url(../img/shop-item-tablet1.jpg);
 	}
@@ -692,6 +696,7 @@ a.shop_go {
 		background-size: cover;
 	}
 	
+	
 	.menu_logo {
 		max-width: 768px;
 		padding-top: 40px;
@@ -708,7 +713,6 @@ a.shop_go {
 	.main {
 		width: 60%;
 		flex-basis:250px;
-		font-size: 14px;
 	}
 	
 	img.pre_images {
@@ -777,6 +781,10 @@ a.shop_go {
 
 
 @media (max-width: 640px) {
+	p.text {
+		font-size: 1rem;
+	}
+	
 	.products_1 {
 		background-image: url(../img/shop-item-mobile1.jpg);
 	}
@@ -836,8 +844,6 @@ a.shop_go {
 	
 	.main {
 		width: 100%;
-		font-size: 14px;
-		
 	}
 	
 	img.pre_images {
@@ -909,6 +915,10 @@ a.shop_go {
 	.now_4 {
 		margin-left: 0px;
 	}
+	
+	p.text {
+		font-size: 1rem;
+	}
 }
 
 @media (max-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
@@ -928,6 +938,10 @@ a.shop_go {
 	.now_4 {
 		margin-left: 0px;
 	}
+	
+	p.text {
+		font-size: 1rem;
+	}
 }
 
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
@@ -946,6 +960,10 @@ a.shop_go {
 	
 	.now_4 {
 		margin-left: 0px;
+	}
+	
+	p.text {
+		font-size: 1rem;
 	}
 }
 
