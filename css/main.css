@@ -298,13 +298,6 @@ div.title_time_aside h3.title_after {
 	width: 100%;
 }
 
-.search_aside {
-	margin-top: 40px;
-	margin-bottom: 50px;
-	display: flex;
-	text-align: center;
-}
-
 .search_email_aside {
 	width: 100%;
 }
@@ -316,16 +309,31 @@ div.title_time_aside h3.title_after {
 	background-color: #f5f4f4;
 }
 
-.search_submit{
-	background-image: url(../svg/search.svg);
-	background-color: #b59f5b;
-	background-repeat: no-repeat;
-	background-position: right;
-	background-size:20px;
-	width: 20%;
-	background-position: right 15px center;
-	border: 0px;
+.section_aside {
+	width: 100%;
 }
+
+.search_aside_form {
+	display: flex;
+	width: 100%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.search_aside {
+	width: 80%;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+
+.search_aside_2 {
+	width: 20%;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+
 
 .email_submit {
   margin-top: 20px;
