@@ -33,7 +33,7 @@
 }
 
 h1.header-title {
-	display: inline-block;
+	margin: auto;
 	text-transform: uppercase;
 	color: #ffffff;
 	font-family: Bold;
@@ -379,9 +379,13 @@ li a:hover{
   color: #b59f5b;
 }
 
+.list {
+	display: flex;
+}
+
 div.content ul.list li{
-  display: inline-block;
-  color: #b59f5b;
+	display: flex;
+	color: #b59f5b;
 }
 
 span.time {
@@ -1009,7 +1013,7 @@ h2.title_after1::after {
 
 .select {
   font-family: Regular;
-  display: inline-block;
+  margin: auto;
   box-sizing: border-box;
   width: 315px;
   height: 38px;
@@ -1035,7 +1039,6 @@ h2.title_after1::after {
 
 .radio-group-text::before {
 	content: "";
-	display: inline-block;
 	width: 20px;
 	height: 20px;
 	background-image: url(../svg/form-empty-circle.svg);
@@ -1043,14 +1046,21 @@ h2.title_after1::after {
 	background-size: 17px;
 }
 
+.radio-group-text {
+	display: flex;
+}
+
+
 .radio-group-text::before {
-	display: inline-block;
 	vertical-align: middle;
 	margin-right: 8px;
 }
 
+.radio-flex {
+	display: flex;
+}
+
 .radio-group {
-	display: inline-block;
 	font-size: 15px;
 }
 
