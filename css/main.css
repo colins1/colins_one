@@ -729,23 +729,6 @@ a.shop_go {
 		flex-direction: column;
 	}
 	
-	.content_image_now {
-		width: 49.72%;
-	}
-	
-	.now_1 {
-		margin-bottom: 4px;
-		margin-right: 4px;
-	}
-	
-	.now_2 {
-		margin-bottom: 4px;
-	}
-	
-	.now_4 {
-		margin-left: 4px;
-	}
-	
 	.products {
 		max-width: 730px;
 		flex-wrap: wrap;
@@ -775,6 +758,44 @@ a.shop_go {
 	
 	ul.theme_ul_aside li {
 		width: 255%;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
+	.content_image_now {
+		width: 49.62%;
+	}
+	
+	.now_1 {
+		margin-bottom: 4px;
+		margin-right: 0px;
+	}
+	
+	.now_2 {
+		margin-bottom: 4px;
+	}
+	
+	.now_4 {
+		margin-left: 0px;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
+	.content_image_now {
+		width: 24.8%;
+	}
+	
+	.now_1 {
+		margin-bottom: 0px;
+		margin-right: 0px;
+	}
+	
+	.now_2 {
+		margin-bottom: 0px;
+	}
+	
+	.now_4 {
+		margin-left: 0px;
 	}
 }
 
@@ -809,6 +830,19 @@ a.shop_go {
 	.content_image_now {
 		width: 100%;
 		margin-bottom: 4px;
+	}
+	
+	.now_1 {
+		margin-bottom: 4px;
+		margin-right: 0px;
+	}
+	
+	.now_2 {
+		margin-bottom: 4px;
+	}
+	
+	.now_4 {
+		margin-left: 0px;
 	}
 	
 	.opacity{
@@ -895,52 +929,6 @@ a.shop_go {
 	
 	ul.theme_ul_aside li {
 		width: 365%;
-	}
-}
-
-@media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
-	.content_image_now {
-		width: 49.72%;
-	}
-	
-	.now_1 {
-		margin-bottom: 0px;
-		margin-right: 0px;
-	}
-	
-	.now_2 {
-		margin-bottom: 0px;
-	}
-	
-	.now_4 {
-		margin-left: 0px;
-	}
-	
-	p.text {
-		font-size: 1rem;
-	}
-}
-
-@media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
-	.content_image_now {
-		width: 24.8%;
-	}
-	
-	.now_1 {
-		margin-bottom: 0px;
-		margin-right: 0px;
-	}
-	
-	.now_2 {
-		margin-bottom: 0px;
-	}
-	
-	.now_4 {
-		margin-left: 0px;
-	}
-	
-	p.text {
-		font-size: 1rem;
 	}
 }
 
