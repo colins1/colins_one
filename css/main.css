@@ -911,6 +911,25 @@ a.shop_go {
 	}
 }
 
+@media (max-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
+	.content_image_now {
+		width: 49.72%;
+	}
+	
+	.now_1 {
+		margin-bottom: 0px;
+		margin-right: 0px;
+	}
+	
+	.now_2 {
+		margin-bottom: 0px;
+	}
+	
+	.now_4 {
+		margin-left: 0px;
+	}
+}
+
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
 	.content_image_now {
 		width: 24.8%;
