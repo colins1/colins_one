@@ -235,12 +235,9 @@ ul.list_now {
   margin-top: 65px;
 }
 
-.aside{
-  display: flex;
-  margin-top: 65px;
-}
-
 .aside {
+	display: flex;
+	margin-top: 65px;	
 	display: flex;
 	width: 330px;
 	padding-left: 60px;
@@ -385,14 +382,6 @@ li a:hover{
 div.content ul.list li{
   display: inline-block;
   color: #b59f5b;
-}
-
-.glob_title {
-	text-transform: uppercase;
-	font-family: Bold;
-	font-size: 20px;
-	display: block;
-	width: 350px;
 }
 
 span.time {
