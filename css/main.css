@@ -1012,6 +1012,27 @@ a.shop_go {
 	}
 }
 
+@media (min-width: 641px) and (max-width: 1080px) and (orientation: landscape){
+	
+	.content_image_now {
+		width: 49.62%;
+	}
+	
+	.now_1 {
+		margin-bottom: 4px;
+		margin-right: 0px;
+	}
+	
+	.now_2 {
+		margin-bottom: 4px;
+	}
+	
+	.now_4 {
+		margin-left: 0px;
+	}
+	
+}
+
 .popup-wrapper {
 	display: none;
 	font-family: Regular;
